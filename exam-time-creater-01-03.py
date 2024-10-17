@@ -28,7 +28,7 @@ def create_meeting_schedule(ders1, ders2, ders3, output_file):
     # Yeni bir Excel dosyası oluştur
     workbook = openpyxl.Workbook()
     sheet = workbook.active
-    sheet.append(['İsim', 'Toplantı Saati'])
+    sheet.append(['Numara', 'Toplantı Saati'])
     #bir üst satırda "İsim" yerine başka bir şey olmalı ders ismi gelmeli mesela
 
     for name in common_names:
